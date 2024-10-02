@@ -1,0 +1,132 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #403f4c;
+  color: #fff;
+}
+
+h1,
+h2,
+h3 {
+  color: #fff;
+}
+
+a {
+  color: #8a8a9b;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+}
+
+/* Estilos para el diseño Santo Grial */
+.holy-grail {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #2c2b3c;
+}
+
+.holy-grail header,
+.holy-grail .header,
+.holy-grail footer,
+.holy-grail .footer {
+  background-color: #1b2432;
+  padding: 1rem;
+  text-align: center;
+  clear: both;
+}
+
+.holy-grail nav,
+.holy-grail .nav {
+  background-color: #2c2b3c;
+  padding: 1rem;
+}
+
+.holy-grail nav ul,
+.holy-grail .nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.holy-grail nav ul li,
+.holy-grail .nav ul li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+.holy-grail main,
+.holy-grail .main {
+  width: 50%;
+  float: left;
+  padding: 1rem;
+  background-color: #403f4c;
+}
+
+.holy-grail .aside-left {
+  width: 20%;
+  float: left;
+  padding: 1rem;
+  background-color: #2c2b3c;
+}
+
+.holy-grail .aside-right {
+  width: 20%;
+  float: right;
+  padding: 1rem;
+  background-color: #2c2b3c;
+}
+
+/* Clearfix para asegurar que el contenedor envuelva correctamente los elementos flotantes */
+.holy-grail:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Estilos adicionales */
+.highlight {
+  background-color: #1b2432;
+  padding: 2px 5px;
+  border-radius: 3px;
+}
+
+code {
+  background-color: #121420;
+  padding: 2px 5px;
+  border-radius: 3px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* Estilos para la tabla */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid #2c2b3c;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #1b2432;
+}
+
+/* Estilos para la galería de imágenes */
+.gallery img,
+.gallery svg {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #1b2432;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
